@@ -22,4 +22,4 @@ valgrind: tree #test
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ) $(EXEC)
+	rm -f %.o $(EXEC)

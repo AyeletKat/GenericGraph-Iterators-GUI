@@ -5,7 +5,7 @@ ID: 325408409
 #ifndef TREE_H
 #define TREE_H
 
-#include "node.hpp"
+//#include "node.hpp" // already included in iterators
 #include "iterators.hpp"
 #include <iostream>
 #include <iterator>
@@ -77,8 +77,11 @@ public:
         return DFSIterator<T>(nullptr);
     }
 
-    HeapIterator <T> myHeap() {
+    HeapIterator <T> start_heap() {
         return HeapIterator<T> (root);
+    }
+     HeapIterator <T> end_heap() {
+        return HeapIterator<T> (nullptr);
     }
     
 
