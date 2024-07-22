@@ -1,3 +1,7 @@
+
+#Email adress: ayeletk03@gmail.com
+#ID: 325408409
+
 CXX = g++
 CXXFLAGS = -std=c++11 -g
 LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system

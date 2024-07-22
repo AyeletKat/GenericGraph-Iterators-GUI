@@ -1,3 +1,7 @@
+/*
+Email adress: ayeletk03@gmail.com
+ID: 325408409
+*/
 #ifndef NODE_H
 #define NODE_H
 
